@@ -27,7 +27,7 @@
             context.memo('button.rtl', function() {
                 // create button
                 var button = ui.button({
-                    contents: '<i class="fa fa-paragraph"/><i class="fa fa-caret-left"/>',
+                    contents: '<span>RTL</span>',
                     tooltip: 'Change text direction to the right',
                     click: function() {
                         function clearSelection() {
@@ -94,7 +94,7 @@
             context.memo('button.ltr', function() {
                 // create button
                 var button = ui.button({
-                    contents: '<i class="fa fa-caret-right"/><i class="fa fa-paragraph"/>',
+                    contents: '<span>LTR</span>',
                     tooltip: 'Change text direction to the left',
                     click: function() {
                         function clearSelection() {
